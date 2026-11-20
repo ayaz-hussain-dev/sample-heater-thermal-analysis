@@ -1,0 +1,11 @@
+design,h_W_m2K,lumped_T600_C,model
+A,5,71.85375851876017,lumped heat balance; not an additional FEA run
+A,7.5,69.20881607487388,lumped heat balance; not an additional FEA run
+A,10,66.75275571564501,lumped heat balance; not an additional FEA run
+A,12.5,64.47034415185306,lumped heat balance; not an additional FEA run
+A,15,62.34766111471945,lumped heat balance; not an additional FEA run
+B,5,88.81991591095293,lumped heat balance; not an additional FEA run
+B,7.5,84.61799596670328,lumped heat balance; not an additional FEA run
+B,10,80.77242564233353,lumped heat balance; not an additional FEA run
+B,12.5,77.24904803897095,lumped heat balance; not an additional FEA run
+B,15,74.0172067719567,lumped heat balance; not an additional FEA run

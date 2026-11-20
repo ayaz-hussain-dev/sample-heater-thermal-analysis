@@ -1,0 +1,135 @@
+{
+  "author": "Ayaz Hussain",
+  "study_date": "2026-11-20",
+  "end_time_s": 600,
+  "initial_temperature_C": 22,
+  "ambient_temperature_C": 22,
+  "heater_power_W": 10,
+  "h_W_m2K": 10,
+  "density_kg_m3": 2770,
+  "cp_J_kgK": 875,
+  "conductivity_temperature_C": [
+    -100,
+    0,
+    100,
+    200
+  ],
+  "conductivity_W_mK": [
+    114,
+    144,
+    165,
+    175
+  ],
+  "length_mm": 60,
+  "width_mm": 40,
+  "heights_mm": {
+    "A": 20,
+    "B": 15
+  },
+  "well_count": 6,
+  "well_diameter_mm": 8,
+  "well_depth_mm": 12,
+  "well_centres_x_mm": [
+    15,
+    30,
+    45
+  ],
+  "well_centres_y_mm": [
+    12,
+    28
+  ],
+  "comparison_benchmarks_C": [
+    40,
+    50,
+    60,
+    65
+  ],
+  "primary_cases": [
+    "A_1mm_1p25s",
+    "B_1mm_1p25s"
+  ],
+  "cases": [
+    {
+      "id": "A_2mm_5s",
+      "design": "A",
+      "mesh_mm": 2,
+      "dt_s": 5,
+      "nodes": 10951,
+      "elements": 6308,
+      "temperature_file": "Heater_A_2mm_5s_Temperature.txt",
+      "heatflux_file": "Heater_A_2mm_5s_Total_Heat_Flux.txt"
+    },
+    {
+      "id": "A_1p5mm_5s",
+      "design": "A",
+      "mesh_mm": 1.5,
+      "dt_s": 5,
+      "nodes": 20391,
+      "elements": 11909,
+      "temperature_file": "Heater_A_1p5mm_5s_Temperature.txt",
+      "heatflux_file": "Heater_A_1p5mm_5s_Total_Heat_Flux.txt"
+    },
+    {
+      "id": "A_1p5mm_2p5s",
+      "design": "A",
+      "mesh_mm": 1.5,
+      "dt_s": 2.5,
+      "nodes": 20391,
+      "elements": 11909,
+      "temperature_file": "Heater_A_1p5mm_2p5s_Temperature.txt",
+      "heatflux_file": "Heater_A_1p5mm_2p5s_Total_Heat_Flux.txt"
+    },
+    {
+      "id": "A_1mm_2p5s",
+      "design": "A",
+      "mesh_mm": 1,
+      "dt_s": 2.5,
+      "nodes": 44281,
+      "elements": 26053,
+      "temperature_file": "Heater_A_1mm_2p5s_Temperature.txt",
+      "heatflux_file": "Heater_A_1mm_2p5s_Total_Heat_Flux.txt"
+    },
+    {
+      "id": "A_1mm_1p25s",
+      "design": "A",
+      "mesh_mm": 1,
+      "dt_s": 1.25,
+      "nodes": 44281,
+      "elements": 26053,
+      "temperature_file": "A_1mm_1p25s_Temperature_History.txt",
+      "heatflux_file": "A_1mm_1p25s_Heatflux_History.txt",
+      "wellwalls_file": "A_1mm_Wellwalls_History.txt"
+    },
+    {
+      "id": "B_1mm_1p25s",
+      "design": "B",
+      "mesh_mm": 1,
+      "dt_s": 1.25,
+      "nodes": 39355,
+      "elements": 23051,
+      "temperature_file": "B_1mm_1p25s_Temperature_History.txt",
+      "heatflux_file": "B_1mm_1p25s_Heatflux_History.txt",
+      "wellwalls_file": "B_1mm_Wellwalls_History.txt"
+    },
+    {
+      "id": "B_1p5mm_1p25s",
+      "design": "B",
+      "mesh_mm": 1.5,
+      "dt_s": 1.25,
+      "nodes": 18014,
+      "elements": 10404,
+      "temperature_file": "Heater_B_1p5mm_1p25s_Temperature.txt",
+      "heatflux_file": "Heater_B_1p5mm_1p25s_Total_Heat_Flux.txt"
+    },
+    {
+      "id": "B_1p5mm_0p625s",
+      "design": "B",
+      "mesh_mm": 1.5,
+      "dt_s": 0.625,
+      "nodes": 18014,
+      "elements": 10404,
+      "temperature_file": "Heater_B_1p5mm_0p625s_Temperature.txt",
+      "heatflux_file": "Heater_B_1p5mm_0p625s_Total_Heat_Flux.txt"
+    }
+  ]
+}

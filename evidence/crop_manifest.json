@@ -1,0 +1,132 @@
+[
+  {
+    "source_path": "Image_to_File_Captures/A_TemperatureWellWalls_Image_to_File.png",
+    "output_path": "figures/ansys/A_wellwalls.png",
+    "crop_box": [
+      0,
+      0,
+      1247,
+      540
+    ],
+    "operation": "pixel-exact rectangular crop only",
+    "source_sha256": "744d114d0bc865af3b75ec2dd3d52824f19d643b991ad9d82c12e52a75dbeff7",
+    "output_sha256": "da736fd7f82ea0de10c1b3bcfb7ed444b7a11ba19e3178a19d2b5e41eafe2216"
+  },
+  {
+    "source_path": "Image_to_File_Captures/A_Temperature_Front_Image_to_File.png",
+    "output_path": "figures/ansys/A_temperature_well_side.png",
+    "crop_box": [
+      0,
+      0,
+      1247,
+      540
+    ],
+    "operation": "pixel-exact rectangular crop only",
+    "source_sha256": "6ae44bc37020c60212043c94cd050613d6b00e6599f733f1179e1357011e59a9",
+    "output_sha256": "c6f829e31cb5e52c1e42cc0acca693d35e48591b3ed8c4c513b4b6038ae46df4"
+  },
+  {
+    "source_path": "Image_to_File_Captures/A_Temperature_Back_Image_to_File.png",
+    "output_path": "figures/ansys/A_temperature_heater_side.png",
+    "crop_box": [
+      0,
+      0,
+      1247,
+      540
+    ],
+    "operation": "pixel-exact rectangular crop only",
+    "source_sha256": "5f557e7bf1fd6b01ce666d276c2860e69dc2a4fcecceb3e2b302485485795a61",
+    "output_sha256": "5cbb2bebf7c55a9ebc5f59eac008b75c7aca11db20f08c063ce19c5fbb10dd71"
+  },
+  {
+    "source_path": "Image_to_File_Captures/A_Total_Heat_Flux_Front_Image_to_File.png",
+    "output_path": "figures/ansys/A_heatflux_well_side.png",
+    "crop_box": [
+      0,
+      0,
+      1247,
+      540
+    ],
+    "operation": "pixel-exact rectangular crop only",
+    "source_sha256": "49f416a083a3b74071eae99d5ddb974d3950d979ab5cdbb031ad91edc3ed730b",
+    "output_sha256": "2c1bfc8387c533c4dba1755a60b03f80a34a64d0c6446e861336442a74109d0f"
+  },
+  {
+    "source_path": "Image_to_File_Captures/B_TemperatureWellWalls_Image_to_File.png",
+    "output_path": "figures/ansys/B_wellwalls.png",
+    "crop_box": [
+      0,
+      0,
+      1247,
+      540
+    ],
+    "operation": "pixel-exact rectangular crop only",
+    "source_sha256": "5536a9ac00e2eabf2a59f757a7c1f31e0629dbe050a8652eab4bf256089f60de",
+    "output_sha256": "d1b012f8436c72f794fd0a7558b20b0b145768373fa4f6381c32537e754c6bf8"
+  },
+  {
+    "source_path": "Image_to_File_Captures/B_Temperature_Front_Image_to_File.png",
+    "output_path": "figures/ansys/B_temperature_well_side.png",
+    "crop_box": [
+      0,
+      0,
+      1247,
+      540
+    ],
+    "operation": "pixel-exact rectangular crop only",
+    "source_sha256": "98b67d01de62b24a79c15b53a7bef83b0d76be97fd841600d82ccfb9d496b7ee",
+    "output_sha256": "99adf10fdb6046fb84114eace847341f7fe3cdf1a99c4495cc27d184dbd02070"
+  },
+  {
+    "source_path": "Image_to_File_Captures/B_Temperature_Back_Image_to_File.png",
+    "output_path": "figures/ansys/B_temperature_heater_side.png",
+    "crop_box": [
+      0,
+      0,
+      1247,
+      540
+    ],
+    "operation": "pixel-exact rectangular crop only",
+    "source_sha256": "2f09ef1b7fedad58f624fc249c6e4bf509510dc7cd47bf88e0aab378b8ea4d6a",
+    "output_sha256": "0f4f484c57742fb76b95951f0ea0f6680d6e44e801403b623a7823374be96395"
+  },
+  {
+    "source_path": "Image_to_File_Captures/B_Total_Heat_Flux_Front_Image_to_File.png",
+    "output_path": "figures/ansys/B_heatflux_well_side.png",
+    "crop_box": [
+      0,
+      0,
+      1247,
+      540
+    ],
+    "operation": "pixel-exact rectangular crop only",
+    "source_sha256": "089fb7d146fb1538674e0f4e2e8f46e630c4fa8c175260e7cf72a8bbbf0d0668",
+    "output_sha256": "87283de3dd25301a738e26463189db7d54f131eb9303b19dc104a65258aae3d7"
+  },
+  {
+    "source_path": "Screenshots/CATIA_A_Overview.png",
+    "output_path": "figures/cad/A_overview.png",
+    "crop_box": [
+      900,
+      450,
+      2200,
+      1500
+    ],
+    "operation": "pixel-exact rectangular crop only",
+    "source_sha256": "2f7ad204283c8928660dfa0c43aa4275801b4b65297c1d8089915f5d1005bb01",
+    "output_sha256": "bbc1f79359a97a2e7ee1b709b1f9851b17516a49e0d036912e8da6f79ca04476"
+  },
+  {
+    "source_path": "Screenshots/CATIA_B_Overview.png",
+    "output_path": "figures/cad/B_overview.png",
+    "crop_box": [
+      900,
+      450,
+      2200,
+      1500
+    ],
+    "operation": "pixel-exact rectangular crop only",
+    "source_sha256": "708cb6d0e4ce55ec7372d67238c463f1f5970c39c351260b8e468a8926ed1acd",
+    "output_sha256": "8b6abf22df0782a0a665365b736b9c48a84790cb7f8d8ae70c03c95c206de12f"
+  }
+]
